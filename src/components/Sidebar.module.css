@@ -1,0 +1,61 @@
+.sidebar {
+    background-color: var(--gray-800);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.cover {
+    width: 100%;
+    height: 72px;
+    object-fit:cover;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.7rem;
+    
+    margin-top: calc(0px - 1.5rem - 6px);
+}
+
+.profile strong {
+    margin: 1rem ;
+    color: var(--gray-100);
+    line-height: 1.6rem;
+}
+
+.profile span {
+    font-size: 0.87rem;
+    color: var(--gray-300);
+    line-height: 1.4rem;
+}
+
+.sidebar footer {
+    border-top: 1px solid var(--gray-600);
+    margin-top: 1.5rem;
+    padding: 1.5rem 2rem 2rem;;
+}
+.sidebar footer a {
+    background: transparent;
+    color: var(--green-300);
+    border: 1px solid var(--green-300);
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 0.87rem;
+    padding: 1rem 2rem 0.8rem 2rem;
+    display: block;
+    text-decoration: none;
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+
+    gap: 0.4rem;
+    transition: color 0.2s, background-color 0.5s ;
+}
+
+.sidebar footer a:hover {
+    background-color: var(--green-500);
+    color: var(--white);
+}
